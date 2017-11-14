@@ -1,6 +1,23 @@
 body {
   font-family: sans-serif;
 }
+h3{
+  font-family: monospace;
+  font-size: 20px;
+  text-decoration: underline;
+  margin-bottom: 0px
+}
+h4{
+  margin-top: 2px;
+  margin-bottom: 2px;
+  font-style: italic;
+  font-weight: lighter;
+}
+p{
+  margin-top: 4px;
+  font-family: monospace;
+  width: 200px;
+}
 .map {
   position: relative;
   background-image: url(../img/world.jpg);
@@ -14,75 +31,119 @@ body {
   box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.5);
 }
 .border:hover {
-  height: 200px;
+  height: 175px;
   font: 30px;
 }
 .cat {
   position: absolute;
-  left: 850px;
-  bottom: 550px;
+  left: 800px;
+  top: 250px;
 }
 .catpic {
   height: 75px;
 }
-/*.cat:hover {
+.cat:hover .hidden{
   display: block;
-}*/
+}
 .seal{
   position: absolute;
-  height: 75px;
   left: 694px;
   bottom: 15px;
   }
+.sealpic {
+  height: 75px;
+}
+.seal:hover .hidden{
+  display: block;
+}
 .dibbler{
   position: absolute;
-  height: 75px;
   left: 1397px;
   bottom: 240px;
-  }
+}
+.dibblerpic {
+  height: 75px;
+}
+.dibbler:hover .hidden {
+  display: block;
+}
 .redpanda{
   position: absolute;
-  height: 75px;
   left: 1267px;
-  bottom: 650px;
-  }
+  top: 200px;
+}
+.redpandapic {
+  height: 75px;
+}
+.redpanda:hover .hidden {
+  display: block;
+}
 .monk{
   position: absolute;
-  height: 75px;
   left: 100px;
-  bottom: 586px;
-  }
+  top: 286px;
+}
+.monkpic {
+  height: 75px;
+}
+.monk:hover .hidden {
+  display: block;
+}
 .otter{
   position: absolute;
-  height: 75px;
   left: 304px;
   bottom: 673px;
-  }
+}
+.otterpic {
+  height: 75px;
+}
+.otter:hover .hidden {
+  display: block;
+}
 .ocelot{
   position: absolute;
-  height: 75px;
   left: 340px;
-  bottom: 550px;
-  }
+  top: 250px;
+}
+.ocelotpic {
+  height: 75px;
+}
+.ocelot:hover .hidden {
+  display: block;
+}
 .sloth{
   position: absolute;
-  height: 75px;
   left: 550px;
-  bottom: 350px;
-  }
+  top: 400px;
+}
+.slothpic {
+  height: 75px;
+}
+.sloth:hover .hidden {
+  display: block;
+}
 .wolverine{
   position: absolute;
+  left: 1050px;
+  bottom: 680px;
+}
+.wolverinepic {
   height: 75px;
-  left: 950px;
-  top: 50px;
-  }
+}
+.wolverine:hover .hidden {
+  display: block;
+}
 .lion{
   position: absolute;
-  height: 75px;
   left: 1050px;
   top: 250px;
-  }
-
+}
+.lionpic {
+  height: 75px;
+}
+.lion:hover .hidden {
+  display: block;
+}
 header h1 {
   text-align: center;
 };
