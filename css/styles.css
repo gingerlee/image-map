@@ -1,0 +1,60 @@
+body {
+  font-family: sans-serif;
+}
+
+.map {
+  position: relative;
+  background-image: url(../img/world.jpg);
+  height: 900px;
+}
+
+/*.world {
+  position: relative;
+}*/
+.border{
+  border: 2px white solid;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.5);
+}
+.border:hover {
+  height: 200px;
+}
+.cat {
+  position: absolute;
+  height: 75px;
+  left: 850px;
+  bottom: 550px;
+}
+.seal{
+  position: absolute;
+  height: 75px;
+  left: 694px;
+  bottom: 15px;
+  }
+.dibbler{
+  position: absolute;
+  height: 75px;
+  left: 1397px;
+  bottom: 240px;
+  }
+.redpanda{
+  position: absolute;
+  height: 75px;
+  left: 1267px;
+  bottom: 650px;
+  }
+.monk{
+  position: absolute;
+  height: 75px;
+  left: 100px;
+  bottom: 586px;
+  }
+.otter{
+  position: absolute;
+  height: 75px;
+  left: 304px;
+  bottom: 673px;
+  }
+
+header h1 {
+  text-align: center;
+};
